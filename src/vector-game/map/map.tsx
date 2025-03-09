@@ -4,9 +4,7 @@ import { GameContext } from "../state/gameContext";
 import MapDetail from "./mapDetail";
 import MapPerson from "./mapPerson";
 
-interface MapProps {}
-
-const Map = (props: MapProps) => {
+const Map = () => {
   const gameContext = useContext(GameContext);
 
   useEffect(() => {}, []);
